@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(.light, .light *));
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@theme {
+  --color-purple: #8685ef;
+  --color-gray: #faf8ff;
+  --color-dark-gray: #d9d9d9;
+  --color-black: #292735;
+  --color-dark-black: #141414;
+}
+
+@utility heading {
+  @apply text-[24px] font-medium tracking-[1.8px];
+}
+
+@utility regular {
+  @apply text-[16px] font-medium tracking-[1.4px];
+}
+
+@utility heading-mobile {
+  @apply text-[20px] font-medium tracking-[1px];
+}
+
+@utility regular-mobile {
+  @apply text-[14px] font-medium tracking-[0.8px];
+}
+
+@utility logo-rounded {
+  @apply rounded-full w-[65px] h-[65px];
+}
+
+@utility logo-rounded-mobile {
+  @apply rounded-full w-[55px] h-[55px];
+}
+
+@utility flex-between {
+  @apply flex justify-between items-center;
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility hover-text {
+  @apply hover:text-purple transition-all duration-200 ease-in-out;
+}
+
+@utility hover-dark {
+  @apply hover:opacity-75 transition-all duration-300 ease-in-out;
+}
+
+@utility hover-light {
+  @apply hover:brightness-125 transition-all duration-300 ease-in-out;
+}
+
+@utility your-message {
+  @apply rounded-tr-2xl rounded-l-2xl bg-blue-500 text-gray;
+}
+
+@utility friend-message {
+  @apply bg-blue-500 text-gray rounded-r-2xl rounded-tl-2xl;
+}
+
+@layer {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
