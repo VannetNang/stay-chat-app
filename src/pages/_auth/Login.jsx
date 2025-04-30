@@ -40,7 +40,7 @@ const Login = () => {
         </div>
 
         <div className="heading-mobile xl:heading text-center mb-[40px] text-gray">
-          Create a new account
+          Login your account
         </div>
 
         <form
