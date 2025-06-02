@@ -1,3 +1,5 @@
+<img src="public/thumbnail.png" alt="Thumbnail Banner" width="100%" />
+
 # Real-Time Chat Application
 
 This project is about connecting and communicating in real-time with this feature-rich chat application. Users can instantly message friends, share images, and easily find new connections with a built-in friend search. The app includes secure user account management (sign-in/login), allows for profile customization, and features a fully responsive layout.
