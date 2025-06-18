@@ -6,18 +6,6 @@ This project is about connecting and communicating in real-time with this featur
 
 ---
 
-## Table of Contents 📝
-
-- [Features](#features)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Contributing](#contributing)
-
----
-
 ## Features ✨
 
 - **Real-Time Messaging:** Instantaneous message delivery between users.
