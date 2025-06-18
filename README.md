@@ -13,7 +13,6 @@ This project is about connecting and communicating in real-time with this featur
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Firebase Setup](#firebase-setup)
   - [Installation](#installation)
 - [Contributing](#contributing)
 
